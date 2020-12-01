@@ -26,5 +26,17 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name" : "api-call",
+      "urls" : ["https://dummy.restapiexample.com/api/v1/employees"],
+      "cacheConfig": {
+        "maxAge": "1m",
+        "maxSize": 1,
+        "strategy": "performance",
+        "timeout": "10s"
+      }
+    }
   ]
 }

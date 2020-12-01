@@ -1,1 +1,15 @@
-<span *ngFor="let i of userData">{{i.id}}</span>
+<h1>hello</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let i of userData">
+        <td>{{i.id}}</td>
+        <td>{{i.employee_name}}</td>
+        <td>{{i.employee_salary}}</td>
+        <td>{{i.employee_age}}</td>
+    </tr>
+</table>
